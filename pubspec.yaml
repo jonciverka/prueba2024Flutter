@@ -1,0 +1,37 @@
+name: prueba2024
+description: "A new Flutter project."
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: ^3.5.2
+
+dependencies:
+  flutter:
+    sdk: flutter
+  http: ^1.00.0
+  intl: ^0.19.0
+  flutter_bloc: ^8.1.6
+  skeletonizer: ^1.4.2
+  page_animation_transition: ^1.0.0
+  url_launcher: ^6.3.0
+  fluttertoast: ^8.2.8
+  liquid_pull_to_refresh: ^3.0.1
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - images/
+  fonts:
+  - family: cheltenham 
+    fonts:
+      - asset: fonts/CheltenhamStdBook.otf
+      - asset: fonts/CheltenhamStdLight.otf
+      - asset: fonts/CheltenhamStdBold.otf
+
